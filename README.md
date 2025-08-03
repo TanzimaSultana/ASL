@@ -40,11 +40,12 @@ GUI-based real-time webcam detection using Tkinter
 ### Installation
 
 git clone https://github.com/TanzimaSultana/ASL.git
-cd ASL
+
+cd ASL/
 
 ### Run Webcam GUI
 
-cd prediction
+cd prediction/
 
 run real_time_prediciton_1.ipynb
 
