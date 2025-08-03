@@ -1,10 +1,11 @@
 
-## ASL Alphabet Recognition with Deep Learning & Transfer Learning
+## ASL Alphabet Recognition with Deep Learning & Transfer Learning ##
 
-```text
-This project focuses on American Sign Language (ASL) alphabet recognition using both traditional machine learning (ML) and deep learning (DL) techniques. It includes the implementation of custom CNN architectures and transfer learning using VGG16, as well as a live webcam-based ASL detection interface.
+This project focuses on American Sign Language (ASL) alphabet recognition using both machine learning (ML) and deep
+learning (DL) techniques.  It includes the implementation of custom CNN architectures and transfer learning using VGG16,  
+as well as a live webcam-based ASL detection interface.
 
-📌 Features
+### Features
 Classification of 29 ASL alphabet signs (A–Z, space, del, nothing)
 
 Models implemented:
@@ -19,7 +20,9 @@ VGG16-based Transfer Learning (frozen & fine-tuned)
 
 GUI-based real-time webcam detection using Tkinter
 
-📁 Directory Structure
+### Directory Structure
+
+```text
 .
 ├── data/
 │   ├── asl_alphabet_train/       # Training dataset (29 ASL classes)
@@ -33,22 +36,22 @@ GUI-based real-time webcam detection using Tkinter
 ├── TransferLearning_1.ipynb      # VGG16 (fine-tuned model)
 ├── data_processing.py            # Preprocessing and augmentation script
 └── README.md
+```
 
-⚙️ Installation
+### Installation
 
 git clone https://github.com/TanzimaSultana/ASL.git
 cd ASL
 
-For webcam GUI, ensure:
+### For webcam GUI, ensure:
 
 You have a working webcam & Tkinter and OpenCV are installed
 
-Run Webcam GUI
+### Run Webcam GUI
 
 cd prediction
 run real_time_prediciton_1.ipynb
 
-License
-
+### License
 This project is for academic and educational purposes. Modify and use freely with attribution.
 
