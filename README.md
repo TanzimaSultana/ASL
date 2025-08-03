@@ -2,8 +2,7 @@
 ## ASL Alphabet Recognition with Deep Learning & Transfer Learning ##
 
 This project focuses on American Sign Language (ASL) alphabet recognition using both machine learning (ML) and deep
-learning (DL) techniques.  It includes the implementation of custom CNN architectures and transfer learning using VGG16,  
-as well as a live webcam-based ASL detection interface.
+learning (DL) techniques.  It includes the implementation of custom CNN architectures and transfer learning using VGG16, as well as a live webcam-based ASL detection interface.
 
 ### Features
 Classification of 29 ASL alphabet signs (A–Z, space, del, nothing)
